@@ -9,7 +9,7 @@
 //    Console.Write($"第{i+1}個數字 = ");
 //    int inputNum = Convert.ToInt32( Console.ReadLine() );
 //    array[i]= inputNum ;
-    
+
 //}
 // foreach (double item in array)
 //    {
@@ -20,6 +20,25 @@
 //Console.ReadKey();
 
 /* 例題5.2-利用一維陣列求10個數字的最大值。*/
+
+//double[] array = new double[10];
+
+//for (int i = 0; i < array.Length; i++) {
+//    Console.Write($"第{i+1}個數字 = ");
+//    double inputNum = Convert.ToDouble(Console.ReadLine());
+//    array[i] = inputNum;
+//}
+//double max = int.MinValue;
+//for (int i = 0; i < array.Length; i++)
+//{
+//    if (array[i] > max) { 
+//        max= array[i];
+//    }
+//}
+//Console.WriteLine($"max= {max}");
+//Console.ReadKey();
+
+
 
 /* 例題5.3-搜尋問題：輸入10個數字至A[ ]，再輸入x，判斷x是否存在於A陣列中，
  
