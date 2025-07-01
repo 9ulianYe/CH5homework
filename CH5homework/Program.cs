@@ -273,31 +273,33 @@
 
 /* 習題 5-6.寫一程式，輸入兩組數字：a1,a2,…,a5和b1,b2,…,b5。求ai+bi，i=1到i=5。
 */
-int[] arrA = new int [5];
-int[] arrB = new int [5];
+//int[] arrA = new int[5];
+//int[] arrB = new int[5];
 
-for (int i = 0; i < arrA.Length; i++)
-{
-    Console.Write($"input a{i}= ");
-    arrA[i] = Convert.ToInt32(Console.ReadLine());
-}
+//for (int i = 0; i < arrA.Length; i++)
+//{
+//    Console.Write($"input a{i+1}= ");
+//    arrA[i] = Convert.ToInt32(Console.ReadLine());
+//}
 
-for (int i = 0; i < arrB.Length; i++)
-{
-    Console.Write($"input b{i}= ");
-    arrB[i] = Convert.ToInt32(Console.ReadLine());
-}
-int ans = 0;
-for (int i = 0; i < arrA.Length; i++)
-{
-    ans = arrA[i] + arrB[i];
-    Console.WriteLine($"a[{i}]+b[{i}]={ans} ");
-}
+//for (int i = 0; i < arrB.Length; i++)
+//{
+//    Console.Write($"input b{i+1}= ");
+//    arrB[i] = Convert.ToInt32(Console.ReadLine());
+//}
+//int ans = 0;
+//for (int i = 0; i < arrA.Length; i++)
+//{
+//    ans = arrA[i] + arrB[i];
+//    Console.WriteLine($"a[{i+1}]+b[{i + 1}]={ans} ");
+//}
 
 
 
 /* 習題 5-7.寫一程式，輸入兩組數字： a1,a2,…,a5和b1,b2,…,b5。令x為a中的最大值，令y為b中的最大值，求x與y中較小者。
 */
+
+
 
 /* 例題5.1-利用一維陣列求10個數字的計算平均值*/
 
