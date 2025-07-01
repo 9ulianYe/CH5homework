@@ -61,16 +61,42 @@
 //    }
 //}
 
+/*例題5.4求兩個2乘3的二維矩陣相加之結果，第一個及第二個矩陣分別以A及B表示，
+ * 相加之結果存入C矩陣，最後將C矩陣內容顯示出來*/
 
+//int[,] arrA = new int[2, 3] {
+//{1,2,3 },
+//{4,5,6 }
+//};
 
+//int[,] arrB = new int[2, 3] {
+//{2,3,4 },
+//{5,6,7 }
+//};
 
+//int[,] arrC = new int[2, 3];
+//for (int row = 0; row < 2; row++) {
+//    for (int col = 0; col < 3; col++)
+//    {
+//        arrC[row,col] = arrA[row, col] + arrB[row, col];
+//    }
+//}
 
-
+//for (int row = 0; row < 2; row++) {
+//    for (int col = 0; col < 3; col++)
+//    {
+//        Console.Write(arrC[row,col]+" " );
+//    }
+//    Console.WriteLine();
+//}
 
 
 
 /* 習題 5-1.寫一程式，將10個數字讀入A陣列，然後逐一檢查此陣列，
     如A[i]>5，則令A[i]=A[i]-5，否則A[i]=A[i]+5 */
+
+
+
 
 
 /* 習題 5-2.寫一程式，將10個數字讀入A陣列，對每一個數字，令A[i]=A[i]+i。
