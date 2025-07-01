@@ -40,8 +40,34 @@
 
 
 
-/* 例題5.3-搜尋問題：輸入10個數字至A[ ]，再輸入x，判斷x是否存在於A陣列中，
- 
+/* 例題5.3-搜尋問題：輸入10個數字至A[ ]，再輸入x，判斷x是否存在於A陣列中，*/
+
+//int[] arr = new int[10];
+//for (int i = 0; i < arr.Length; i++) {
+//    Console.Write($"輸入第{i+1}個數字 = ");
+//    int input = Convert.ToInt32( Console.ReadLine() );
+//    arr[i] = input;
+//}
+
+//bool isExist = true;
+//Console.Write($"輸入x = ");
+//int x = Convert.ToInt32( Console.ReadLine() );
+
+//foreach (int i in arr) { 
+//    if (i == x) Console.WriteLine($" x在A陣列a{i}中");
+//    else
+//    {
+//        Console.WriteLine($"x不在A陣列a{i}中");
+//    }
+//}
+
+
+
+
+
+
+
+
 
 /* 習題 5-1.寫一程式，將10個數字讀入A陣列，然後逐一檢查此陣列，
     如A[i]>5，則令A[i]=A[i]-5，否則A[i]=A[i]+5 */
