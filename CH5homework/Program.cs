@@ -201,6 +201,25 @@
 
 /* 習題 5-4.寫一程式，將15數字存入3×5的二維陣列A中，求每一行及每一列數字的和。
 */
+//int[,] Array = new int [3,5];
+//for (int row = 0; row < Array.GetLength(0); row++) //列
+//{
+//    for (int col = 0; col < Array.GetLength(1); col++) //行
+//    {
+//        Console.Write($"請輸入第{row}列，第{col}行的數字");
+//        int input = Convert.ToInt32(Console.ReadLine());
+//        Array[row, col] = input;
+//    }
+//}
+
+//int sum = 0;
+//for (int row = 0; (row < Array.GetLength(0)); row++) {
+//    for (int col = 0; col < Array.GetLength(1); col++){
+//        sum = sum + Array[row, col];
+//        Console.WriteLine($"第{row}列的總和 = {sum}");
+//        sum = 0;
+//    }
+//}
 
 
 /* 習題 5-5.寫一程式，將15數字存入3×5的二維陣列A中，求每一行及每一列數字的最小值。
