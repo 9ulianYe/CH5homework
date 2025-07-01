@@ -224,13 +224,14 @@
 //    for (int row = 0; (row < Array.GetLength(0)); row++){
 //        sum = sum + Array[row, col];
 //    }
-//    Console.WriteLine($"第{col}列的總和 = {sum}");
+//    Console.WriteLine($"第{col}行的總和 = {sum}");
 //    sum = 0;
 //    }
 
 
 /* 習題 5-5.寫一程式，將15數字存入3×5的二維陣列A中，求每一行及每一列數字的最小值。
 */
+
 
 
 /* 習題 5-6.寫一程式，輸入兩組數字：a1,a2,…,a5和b1,b2,…,b5。求ai+bi，i=1到i=5。
