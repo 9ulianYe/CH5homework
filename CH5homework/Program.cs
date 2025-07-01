@@ -158,6 +158,20 @@
 /* 習題 5-2.寫一程式，將10個數字讀入A陣列，對每一個數字，令A[i]=A[i]+i。
 */
 
+//int[] A = new int[10];
+//for (int i = 0; i < 10; i++)
+//{
+//    Console.Write("input 10 number = ");
+//    int input = Convert.ToInt32(Console.ReadLine());
+//    A[i] = input;
+
+//    A[i] += i;
+//}
+//foreach (var item in A)
+//{
+//    Console.WriteLine(item);
+//}
+//Console.ReadKey();
 
 /* 習題 5-3.寫一程式，將10個數字讀入A陣列，並建立一個B陣列，如A[i]≥0，令B[i]=1，否則令B[i]=0。
 */
