@@ -216,10 +216,17 @@
 //for (int row = 0; (row < Array.GetLength(0)); row++) {
 //    for (int col = 0; col < Array.GetLength(1); col++){
 //        sum = sum + Array[row, col];
-//        Console.WriteLine($"第{row}列的總和 = {sum}");
-//        sum = 0;
 //    }
+//    Console.WriteLine($"第{row}列的總和 = {sum}");
+//    sum = 0;
 //}
+//for (int col = 0; col < Array.GetLength(1); col++){
+//    for (int row = 0; (row < Array.GetLength(0)); row++){
+//        sum = sum + Array[row, col];
+//    }
+//    Console.WriteLine($"第{col}列的總和 = {sum}");
+//    sum = 0;
+//    }
 
 
 /* 習題 5-5.寫一程式，將15數字存入3×5的二維陣列A中，求每一行及每一列數字的最小值。
