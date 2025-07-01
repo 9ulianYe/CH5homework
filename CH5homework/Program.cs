@@ -232,6 +232,43 @@
 /* 習題 5-5.寫一程式，將15數字存入3×5的二維陣列A中，求每一行及每一列數字的最小值。
 */
 
+//int[,] Array = new int[3, 5];
+//for (int row = 0; row < Array.GetLength(0); row++) //列
+//{
+//    for (int col = 0; col < Array.GetLength(1); col++) //行
+//    {
+//        Console.Write($"請輸入第{row}列，第{col}行的數字 = ");
+//        int input = Convert.ToInt32(Console.ReadLine());
+//        Array[row, col] = input;
+//    }
+//}
+
+//int min = int.MaxValue;
+//for (int row = 0; (row < Array.GetLength(0)); row++)
+//{
+//    for (int col = 0; col < Array.GetLength(1); col++)
+//    {
+//        if (Array[row, col] < min)
+//        {
+//            min = Array[row, col]; 
+//        }
+//    }
+//    Console.WriteLine($"第{row}列的最小值 = {min}");
+//    min = int.MaxValue;
+//}
+
+//for (int col = 0; col < Array.GetLength(1); col++) {
+//    for (int row = 0; (row < Array.GetLength(0)); row++) { 
+    
+//    if (Array[row, col] < min)
+//        {
+//            min = Array[row, col]; 
+//        }
+//    }
+//    Console.WriteLine($"第{col}行的最小值 = {min}");
+//    min = int.MaxValue;
+//}
+//Console.ReadKey();
 
 
 /* 習題 5-6.寫一程式，輸入兩組數字：a1,a2,…,a5和b1,b2,…,b5。求ai+bi，i=1到i=5。
