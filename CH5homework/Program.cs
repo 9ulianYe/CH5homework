@@ -90,12 +90,68 @@
 //    Console.WriteLine();
 //}
 
+/* 例題5.5-求2乘3的A矩陣乘以3乘1的B矩陣，結果存入2乘1的C矩陣，最後將C矩陣的內容顯示出來。
+*/
+//int[,] A = new int[2, 3] {
+//    { 0,1,2},
+//    { 1,2,3},
+//};
+//int[,] B = new int[3, 1] {
+//    {1},
+//    {2},
+//    {3},
+//};
+
+//int CRow = A.GetLength(0); //C矩陣的row = A矩陣的row
+//int CCol = B.GetLength(1); //B矩陣的row = A矩陣的col
+
+//int[,] C = new int[CRow, CCol]; 
+
+//for (int col = 0; col < CCol; col++) {  
+//    for (int  row = 0; row < CRow; row++) { //再跑row的迴圈
+//        for (int inner = 0; inner < A.GetLength(1); inner++) { //先跑inner的迴圈 inner的長度可以是A的col或B的row
+//            C[row,col]  = C[row,col]  + A[row, inner] * B[inner, col];  
+//        }
+//    }
+
+//}
+
+//for (int row = 0; row < CRow; row++) 
+//{
+//    for (int col = 0;  col< CCol; col++) 
+//    {
+//        Console.Write(C[row, col] + " ");
+//    }
+//    Console.WriteLine();
+//}
+//Console.ReadKey();
+
+
+
 
 
 /* 習題 5-1.寫一程式，將10個數字讀入A陣列，然後逐一檢查此陣列，
     如A[i]>5，則令A[i]=A[i]-5，否則A[i]=A[i]+5 */
 
+//int[] A = new int[10];
+//for (int i = 0; i < 10; i++)
+//{
+//    Console.Write("input 10 number = ");
+//    int input = Convert.ToInt32(Console.ReadLine());
+//    A[i] = input;
 
+//    if (A[i] > 5)
+//    {
+//        A[i] = A[i] - 5;
+//    }
+//    else {
+//        A[i] = A[i] + 5;
+//    }
+//}
+//foreach (var item in A)
+//{
+//    Console.WriteLine(item);
+//}
 
 
 
