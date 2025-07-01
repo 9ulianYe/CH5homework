@@ -259,7 +259,7 @@
 
 //for (int col = 0; col < Array.GetLength(1); col++) {
 //    for (int row = 0; (row < Array.GetLength(0)); row++) { 
-    
+
 //    if (Array[row, col] < min)
 //        {
 //            min = Array[row, col]; 
@@ -273,6 +273,27 @@
 
 /* 習題 5-6.寫一程式，輸入兩組數字：a1,a2,…,a5和b1,b2,…,b5。求ai+bi，i=1到i=5。
 */
+int[] arrA = new int [5];
+int[] arrB = new int [5];
+
+for (int i = 0; i < arrA.Length; i++)
+{
+    Console.Write($"input a{i}= ");
+    arrA[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+for (int i = 0; i < arrB.Length; i++)
+{
+    Console.Write($"input b{i}= ");
+    arrB[i] = Convert.ToInt32(Console.ReadLine());
+}
+int ans = 0;
+for (int i = 0; i < arrA.Length; i++)
+{
+    ans = arrA[i] + arrB[i];
+    Console.WriteLine($"a[{i}]+b[{i}]={ans} ");
+}
+
 
 
 /* 習題 5-7.寫一程式，輸入兩組數字： a1,a2,…,a5和b1,b2,…,b5。令x為a中的最大值，令y為b中的最大值，求x與y中較小者。
