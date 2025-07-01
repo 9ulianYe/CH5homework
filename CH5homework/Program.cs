@@ -299,6 +299,46 @@
 /* 習題 5-7.寫一程式，輸入兩組數字： a1,a2,…,a5和b1,b2,…,b5。令x為a中的最大值，令y為b中的最大值，求x與y中較小者。
 */
 
+//int[] arrA = new int[5];
+//int[] arrB = new int[5];
+
+//for (int i = 0; i < arrA.Length; i++)
+//{
+//    Console.Write($"input a{i + 1}= ");
+//    arrA[i] = Convert.ToInt32(Console.ReadLine());
+//}
+
+//for (int i = 0; i < arrB.Length; i++)
+//{
+//    Console.Write($"input b{i + 1}= ");
+//    arrB[i] = Convert.ToInt32(Console.ReadLine());
+//}
+
+//int x = int.MinValue;
+//for (int i = 0; i < arrA.Length; i++) { 
+//    if (arrA[i] > x) { 
+//        x = arrA[i]; 
+//    }
+//}
+//int y = int.MinValue;
+//for (int i = 0; i < arrB.Length; i++) { 
+//    if (arrB[i] > y) { 
+//        y = arrB[i]; 
+//    }
+//}
+
+//if (x > y)
+//{
+//    Console.WriteLine("x>y");
+//}
+//else if (y > x) { 
+
+//     Console.WriteLine("y > x");
+//}
+//else
+//{
+//    Console.WriteLine("x=y");
+//}
 
 
 /* 例題5.1-利用一維陣列求10個數字的計算平均值*/
