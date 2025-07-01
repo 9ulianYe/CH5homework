@@ -175,6 +175,29 @@
 
 /* 習題 5-3.寫一程式，將10個數字讀入A陣列，並建立一個B陣列，如A[i]≥0，令B[i]=1，否則令B[i]=0。
 */
+//int[] A = new int[10];
+//int [] B = new int[10];
+//for (int i = 0; i < 10; i++)
+//{
+//    Console.Write("input 10 number = ");
+//    int input = Convert.ToInt32(Console.ReadLine());
+//    A[i] = input;
+
+//    if (A[i] >= 0) {
+//        B[i] = 1;
+//    }
+//    else
+//    {
+//        B[i] = 0;
+//    }
+
+//}
+//foreach (var item in B)
+//{
+//    Console.WriteLine(item);
+//}
+//Console.ReadKey();
+
 
 /* 習題 5-4.寫一程式，將15數字存入3×5的二維陣列A中，求每一行及每一列數字的和。
 */
